@@ -14,9 +14,9 @@ const Projects = () => {
             <Container>
                 <h2 className="text-center my-4 zara-text text-primary">Projects</h2>
                 <p className="mb-5 text-center">These project done by me using React JS, Node JS. and also I have used MongoDB</p>
-                <Row xs={1} md={3} className="g-4">
+                <Row xs={1} md={4} className="g-4">
                 { 
-                    services.slice(0, 3).map(service => <Project 
+                    services.slice(0, 4).map(service => <Project 
                     service={service}
                     key={service.id}
                     ></Project>)

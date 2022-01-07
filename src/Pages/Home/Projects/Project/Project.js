@@ -7,9 +7,9 @@ const Project = (props) => {
     return (
         <>
             <Col>
-                <a href={url}>
+                <a href={url} target="_blank" rel="noreferrer">
                 <Card>
-                    <div className="thumbnail"> 
+                    <div className="thumbnail project-details"> 
                             <div className="overlay"></div>
                             <Card.Img variant="top" src={thumbnail} />
                         </div>

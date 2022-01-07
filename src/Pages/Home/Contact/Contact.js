@@ -11,8 +11,8 @@ const Contact = () => {
     return (
              <div className="contact-page mt-5">
                 <Container> 
-                <h2 className="text-center my-4 zara-text text-primary">Projects</h2>
-                <p className="mb-5 text-center">These project done by me using React JS, Node JS. and also I have used MongoDB</p>
+                <h2 className="text-center my-4 zara-text text-primary">Contact Us</h2>
+                <p className="mb-5 text-center">If you want to contact with me that message me here</p>
                     <Row> 
                         <Col xs={12} lg="4">
                             <h5>Get in Touch</h5>

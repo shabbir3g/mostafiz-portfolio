@@ -2,15 +2,12 @@ import React from 'react';
 import { Card, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import footerLogo from '../../../images/logo.png';
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 const Facebook = <FontAwesomeIcon icon={faFacebook} />;
 const Twitter = <FontAwesomeIcon icon={faTwitter} />;
 const Instagram = <FontAwesomeIcon icon={faInstagram} />;
 const Linkedin = <FontAwesomeIcon icon={faLinkedin} />;
-const Youtube = <FontAwesomeIcon icon={faYoutube} />;
 
 const Footer = () => {
     return (
@@ -31,12 +28,12 @@ const Footer = () => {
                     <div className="col-md-2 col-lg-2">
                     <Card className="border-0">
                         <Card.Body className="text-light">
-                        <Card.Title className="text-uppercase  mb-4">Services</Card.Title>
+                        <Card.Title className="text-uppercase  mb-4">Projects</Card.Title>
                             <ul className='footer-services'>
-                                <li><Link to="/">Cancer Services</Link></li>
-                                <li><Link to="/">Liver Transplant</Link></li>
-                                <li><Link to="/">Kidney Cancer</Link></li>
-                                <li><Link to="/">Anxiety Disorder</Link></li>
+                                <li><a href="https://bd-travel-agency-914b3.web.app/" target="_blank" rel="noreferrer">DB Travel Agency</a></li>
+                                <li><a href="https://zara-drone.web.app/" target="_blank" rel="noreferrer">Zara Drone</a></li>
+                                <li><a href="https://zara-resort.web.app/" target="_blank" rel="noreferrer">Zara Resort</a></li>
+                                <li><a href="https://zara-clinic.web.app/" target="_blank" rel="noreferrer">Zara Clinic</a></li>
                             </ul>
                         </Card.Body>
                     </Card>
@@ -66,8 +63,7 @@ const Footer = () => {
                                 <li><a rel="noreferrer" target="_blank" href="http://facebook.com">{Facebook}</a></li>
                                 <li><a rel="noreferrer" target="_blank" href="http://twitter.com">{Twitter}</a></li>
                                 <li><a rel="noreferrer" target="_blank" href="https://www.instagram.com">{Instagram}</a></li>
-                                <li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com">{Linkedin}</a></li>
-                                <li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com">{Youtube}</a></li>
+                                <li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/shabbir4g/">{Linkedin}</a></li>
                             </ul>
                         
                         </Card.Body>

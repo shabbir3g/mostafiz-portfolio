@@ -245,3 +245,7 @@ ul.footer-follow-us li a svg {
   border: 1px solid #fff;
   color: #fff;
 }
+.project-details img {
+  height: 175px;
+  object-fit: cover;
+}
