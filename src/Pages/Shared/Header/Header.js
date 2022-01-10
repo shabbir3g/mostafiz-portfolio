@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import logo from '../../../images/logo.png'
 
@@ -10,7 +11,7 @@ const Header = () => {
         <div>
 
         
-        <Navbar collapseOnSelect expand="lg" >
+        <Navbar className='header-top-fixed' collapseOnSelect expand="lg" >
         <Container className="header-container">
         <Navbar.Brand as={Link} to="/">
       <img
@@ -23,7 +24,8 @@ const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="#about">About</Nav.Link>
+            <HashLink className="nav-link"  to="/#about">About</HashLink>
+            <HashLink className="nav-link" to="/#projects">Projects</HashLink>
             <Nav.Link as={Link} to="#projects">Projects</Nav.Link>
             <Nav.Link as={Link} to="#contact">Contact Us</Nav.Link>
             </Nav>

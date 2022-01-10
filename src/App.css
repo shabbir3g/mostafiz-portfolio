@@ -1,5 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Rubik&display=swap");
 /* Common style  */
+.header-top-fixed {
+  background: rgba(10, 61, 98, 0);
+  position: fixed;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  z-index: 1000;
+  height: 100px;
+  overflow: hidden;
+  transition: height 0.3s;
+  text-align: center;
+}
+.header-top-fixed.shrink:before {
+  height: 100%;
+}
+.header-top-fixed.shrink {
+  height: 80px;
+  background: rgba(10, 61, 98, 0.5254901960784314);
+  top: 0px;
+  position: fixed !important;
+}
+
+.navbar-brand img {
+  width: 250px;
+}
+.header-top-fixed.shrink .navbar-brand img {
+  width: 150px;
+}
+
+.navbar-toggler i {
+  color: #fff;
+  font-size: 35px;
+}
+.header-top-fixed.shrink .navbar-toggler i,
+.navbar-light .navbar-toggler i {
+  color: #000;
+  font-size: 35px;
+}
+.warehousing-sliderss {
+  overflow: hidden;
+}
+.navbar .nav-link {
+  font-size: 0.95rem;
+  font-weight: 700;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  transition-property: color;
+  text-transform: capitalize;
+}
+
+.navbar::before {
+  background-color: #000;
+}
+li.grid_item {
+  width: 30% !important;
+  height: 350px;
+}
+.grid_item img {
+  width: 90%;
+}
 body,
 p {
   font-family: "Rubik", sans-serif;
@@ -248,4 +308,9 @@ ul.footer-follow-us li a svg {
 .project-details img {
   height: 175px;
   object-fit: cover;
+}
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  z-index: 99;
 }

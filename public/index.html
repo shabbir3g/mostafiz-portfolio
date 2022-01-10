@@ -10,6 +10,38 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Latest Bootstrap min CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Flaticon Font CSS -->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!--- owl carousel CSS-->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Scrollbar Css -->
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <!--  -->
+
+
+
+    <!--  -->
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -27,6 +59,17 @@
     <title>Mostafizur Rahman Portfolio Website</title>
   </head>
   <body>
+      <!-- LOADER -->
+      <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner ball-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- END LOADER -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +82,61 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+     <!-- Latest jQuery -->
+     <script src="assets/js/jquery-1.12.4.min.js"></script>
+     <!-- jquery-ui -->
+     <script src="assets/js/jquery-ui.js"></script>
+     <!-- popper min js -->
+     <script src="assets/js/popper.min.js"></script>
+     <!-- Latest compiled and minified Bootstrap -->
+     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+     <!-- owl-carousel min js  -->
+     <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+     <!-- magnific-popup min js  -->
+     <script src="assets/js/magnific-popup.min.js"></script>
+     <!-- waypoints min js  -->
+     <script src="assets/js/waypoints.min.js"></script>
+     <!-- parallax js  -->
+     <script src="assets/js/parallax.js"></script>
+     <!-- countdown js  -->
+     <script src="assets/js/jquery.countdown.min.js"></script>
+     <!-- jquery.counterup.min js -->
+     <script src="assets/js/jquery.counterup.min.js"></script>
+     <!-- imagesloaded js -->
+     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+     <!-- isotope min js -->
+     <script src="assets/js/isotope.min.js"></script>
+     <!-- vanilla-tilt.babel.min js -->
+     <script src='assets/js/vanilla-tilt.babel.min.js'></script>
+     <!-- typed.min js -->
+     <script src="assets/js/typed.min.js"></script>
+     <!-- typed text js -->
+     <script src="assets/js/typed-text.js"></script>
+     <!-- mCustomScrollbar.concat.min js -->
+     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+     <!-- scripts js -->
+     <script src="assets/js/scripts.js"></script>
+     <script src="assets/js/contact.js"></script>
+     <script type="text/javascript">
+    
+      jQuery(function(){
+     var shrinkHeader = 200;
+          jQuery(window).scroll(function() {
+          var scroll = getCurrentScroll();
+            if ( scroll >= shrinkHeader ) {
+              jQuery('.header-top-fixed').addClass('shrink');
+            }
+            else {
+              jQuery('.header-top-fixed').removeClass('shrink');
+            }
+          });
+        function getCurrentScroll() {
+          return window.pageYOffset || document.documentElement.scrollTop;
+          }
+
+        });
+  </script>
+
   </body>
 </html>

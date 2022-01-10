@@ -1,27 +1,52 @@
 import React from 'react';
-import {Col, Row, Button, Container } from 'react-bootstrap';
+import {Row, Container } from 'react-bootstrap';
 import heroImg from '../../../images/hero-img.png';
 const Banner = () => {
     return (
-        <div>
-            <div className="home-slider"> 
-                <div>
-                    <Container>
-                        <div className="text-start">
-                            <Row className="align-items-center home-slide"> 
-                                <Col xs={12} lg="6">
-                                <h1>I’m <span>Mostafizur</span> Rahman</h1>
-                                <p> Front-end Developer</p>
-                                <a target="_blank" href="Resume-of-Md-Mostafizur-Rahman.pdf"><Button className="zara-btn" variant="primary" size="md" >Download Resume</Button></a>
-                                </Col>
-                                <Col xs={12} lg="6">
-                                <img className="slider-image d-block"  src={heroImg} alt="First slide" />
-                                </Col>
-                            </Row>
+        <div id="home_section" className="banner_section full_screen parallax_bg overlay_bg_blue_90"
+        data-parallax-bg-image="assets/images/bg2.jpg">
+        <div className="banner_slide_content">
+            <Container className="container">
+                
+                <Row className="row align-items-center">
+                    <div className="col-xl-6">
+                        <div className="image_banner animation" data-animation="fadeInUp" data-animation-delay="0.02s">
+                            <img src={heroImg} alt="my_image" />
+                            <div className="circle_bg1">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
                         </div>
-                    </Container>
-                </div>
-            </div>
+                    </div>
+                    <div className="col-xl-6 order-xl-first">
+                        <div className="banner_content text_white text-center text-xl-left home-slide">
+                            <h1 className="animation text-left" data-animation="fadeInUp" data-animation-delay="0.02s">Hello, I'm
+                                Md. Mostafizur Rahman</h1>
+                            <div id="typed-strings" className="d-none">
+                                <b>Frontend Developer</b> <b>Web Developer</b> <b>WordPress Web Designer</b> <b>
+                                    junior MERN Stack Developer</b>
+                            </div>
+                            <h4 className="animation text-left" data-animation="fadeInUp" data-animation-delay="0.03s">I'm a <span id="typed-text" className="text_default"></span>
+                            </h4>
+                            <a target="_blank"
+                                href="Resume-of-Md-Mostafizur-Rahman.pdf" rel="noreferrer"
+                                className="btn banner_ripple ripple_white  animation" data-animation="fadeInLeft"
+                                data-animation-delay="0.05s"><span className="ripple"><i className="ti-download"></i></span>My
+                                Resume</a>
+                        </div>
+                    </div>
+                </Row>
+            </Container>
+        </div>
+        <a href="#about" className="down down_white page-scroll">
+            <span className="mouse"><span></span></span>
+        </a>
         </div>
     );
 };
