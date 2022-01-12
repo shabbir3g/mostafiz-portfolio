@@ -11,7 +11,7 @@ const Projects = () => {
     }, []);
     return (
         <div className="my-5"> 
-            <Container>
+            {/* <Container>
                 <h2 className="text-center my-4 zara-text text-primary">Projects</h2>
                 <p className="mb-5 text-center">These project done by me using React JS, Node JS. and also I have used MongoDB</p>
                 <Row xs={1} md={4} className="g-4">
@@ -22,17 +22,17 @@ const Projects = () => {
                     ></Project>)
                 }
                 </Row>
-            </Container>
+            </Container> */}
 
 
             {/* Testing code  */}
-            <section id="projects" className="pb_70 bg_black2">
+            <section id="projects" className="pb_70 ">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-xl-6 col-lg-7 col-md-9 text-center">
-                    <div className="heading_s1 heading_light animation" data-animation="fadeInUp"
+                    <div className="heading_s1 animation" data-animation="fadeInUp"
                         data-animation-delay="0.02s">
-                        <h2>My Portfolio</h2>
+                        <h2>My Projects</h2>
                     </div>
 
                 </div>
@@ -59,9 +59,9 @@ const Projects = () => {
                         data-animation="fadeInUp" data-animation-delay="0.04s">
                       <li className="grid-sizer">
                         <li className="grid_item react mern">
-                            <div className="portfolio_item">
+                            <div className="portfolio_item" >
                                 <a href="/" className="image_link">
-                                    <img src="assets/images/project1.png" alt="images" />
+                                    <img src="assets/images/project-01.png" alt="images" />
                                 </a>
                                 <div className="portfolio_content">
                                     <h5><a href="project1.html">Super Bicycles</a>
@@ -73,7 +73,7 @@ const Projects = () => {
                         <li className="grid_item react">
                             <div className="portfolio_item">
                                 <a href="/" className="image_link">
-                                    <img src="assets/images/project2.png" alt="images" />
+                                    <img src="assets/images/project-02.png" alt="images" />
                                 </a>
                                 <div className="portfolio_content">
                                     <div className="link_container">
@@ -86,7 +86,7 @@ const Projects = () => {
                         <li className="grid_item react mern">
                             <div className="portfolio_item">
                                 <a href="/" className="image_link">
-                                    <img src="assets/images/project3full.png" alt="images" />
+                                    <img src="assets/images/project-03.png" alt="images" />
                                 </a>
                                 <div className="portfolio_content">
                                     <div className="link_container">
@@ -100,7 +100,7 @@ const Projects = () => {
                         <li className="grid_item wordpress">
                             <div className="portfolio_item">
                                 <a href="/" className="image_link">
-                                    <img src="assets/images/project5.png" alt="imageh" />
+                                    <img src="assets/images/project-04.png" alt="imageh" />
                                 </a>
                                 <div className="portfolio_content">
                                     <div className="link_container">
