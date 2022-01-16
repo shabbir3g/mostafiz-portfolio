@@ -9,118 +9,59 @@ const Envelope = <FontAwesomeIcon icon={faEnvelope} />;
 
 const Contact = () => {
     return (
-             <div className="contact-page my-5 pb-5">
-              {/*   <Container> 
-                <h2 className="text-center my-4 zara-text text-primary">Contact Us</h2>
-                <p className="mb-5 text-center">If you want to contact with me that message me here</p>
-                    <Row> 
-                        <Col xs={12} lg="4">
-                            <h5>Get in Touch</h5>
-                            <p>Mon-Fri: 8:00 – 20:00</p>
-
-                            <div className="contact-item">
-                            <div className="contact-icon">
-                                {map}
-                            </div>
-                            <h6>Address</h6>
-                            <p>Bangladesh, <br />
-                            Chatmohar, Pabna - 6630</p>
-                            </div>
-
-                            <div className="contact-item">
-                            <div className="contact-icon">
-                                {Phone}
-                            </div>
-                            <h6>Call Us</h6>
-                            <span>+88 01728 536054</span>
-                            </div>
-
-                            <div className="contact-item">
-                            <div className="contact-icon">
-                                {Envelope}
-                            </div>
-                            <h6>E-mail</h6>
-                            <a href="mailto:contact@webitltd.com">mostafizshabbir@gmail.com</a>
-                            </div>
-                        </Col>
-                        <Col xs={12} lg="8">
-                        <div id="contact-form">
-                            <div className="row contact-row">
-                            <div className="col-md-6 contact-name">
-                                <input name="name" id="name" type="text" placeholder="Name*" />
-                            </div>
-                            <div className="col-md-6 contact-email">
-                                <input name="mail" id="mail" type="email" placeholder="E-mail*" />
-                            </div>
-                            </div>
-
-                            <input name="subject" id="subject" type="text" placeholder="Subject" /> 
-                            <textarea name="comment" id="comment" placeholder="Message"></textarea>
-                          
-                            <Button size="md" className="zara-btn" variant="primary" >Send Message</Button>
-                            <div id="msg" className="message"></div>
-                            </div>
-                        </Col>
-                    </Row>
-                    
-                </Container>
-                  <div className="mt-5"> 
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7276.590568562585!2d89.287109!3d24.231449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x408e16348bd1d77b!2sChatmohar%20Thana!5e0!3m2!1sen!2sbd!4v1633315022801!5m2!1sen!2sbd" title="contact map" width="100%" height="450" allowFullScreen="" loading="lazy"></iframe>
-                  </div> */}
-
-            <div id="contact" class="">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-xl-6 col-lg-7 col-md-9 text-center">
-                                <div class="heading_s1 animation" data-animation="fadeInUp"
-                                    data-animation-delay="0.02s">
+            <div className="contact-page my-5 pb-5">
+            <div id="contact">
+                    <Container>
+                        <Row className="justify-content-center">
+                            <Col className="col-xl-6 col-lg-7 col-md-9 text-center">
+                                <div className="heading_s1">
                                     <h2>Contact Me</h2>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row align-items-center animation" data-animation="fadeInUp" data-animation-delay="0.04s">
-                            <div class="col-md-4 text-center">
-                                <div class="icon_box icon_box_style_2 box_dark radius_box_10">
-                                    <div class="box_icon mb-3">
-                                        <i class="ti-location-pin"></i>
+                            </Col>
+                        </Row>
+                        <Row className="row align-items-center">
+                            <div className="col-md-4 text-center">
+                                <div className="icon_box icon_box_style_2 box_dark radius_box_10">
+                                    <div className="box_icon mb-3">
+                                        {map}
                                     </div>
-                                    <div class="icon_box_content">
-                                        <h5 class="text-uppercase py-md-2">Address</h5>
+                                    <div className="icon_box_content">
+                                        <h5 className="text-uppercase py-md-2">Address</h5>
                                         <p>
                             Chatmohar, Pabna, Bangladesh</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 text-center">
-                                <div class="icon_box icon_box_style_2 box_dark radius_box_10">
-                                    <div class="box_icon mb-3">
-                                        <i class="ti-mobile"></i>
+                            <div className="col-md-4 text-center">
+                                <div className="icon_box icon_box_style_2 box_dark radius_box_10">
+                                    <div className="box_icon mb-3">
+                                        {Phone}
                                     </div>
-                                    <div class="icon_box_content">
-                                        <h5 class="text-uppercase py-md-2">Phone</h5>
+                                    <div className="icon_box_content">
+                                        <h5 className="text-uppercase py-md-2">Phone</h5>
                                         <p>+8801728536054</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 text-center">
-                                <div class="icon_box icon_box_style_2 box_dark radius_box_10">
-                                    <div class="box_icon mb-3">
-                                        <i class="ti-email"></i>
+                            <div className="col-md-4 text-center">
+                                <div className="icon_box icon_box_style_2 box_dark radius_box_10">
+                                    <div className="box_icon mb-3">
+                                        {Envelope}
                                     </div>
-                                    <div class="icon_box_content">
-                                        <h5 class="text-uppercase py-md-2">Email</h5>
+                                    <div className="icon_box_content">
+                                        <h5 className="text-uppercase py-md-2">Email</h5>
                                         <p>mostafizshabbir@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="medium_divider clearfix"></div>
+                        </Row>
+                        <Row className="row">
+                            <div className="col-12">
+                                <div className="medium_divider clearfix"></div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
+                        </Row>
+                        <Row className="row">
+                            <div className="col-md-6">
                                    <div id="contact-form">
                                         <div className="row contact-row">
                                         <div className="col-md-6 contact-name">
@@ -136,14 +77,13 @@ const Contact = () => {
                                         <div id="msg" className="message"></div>
                                     </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="contact_map mt-4 mt-md-0 animation" data-animation="fadeInUp"
-                                    data-animation-delay="0.02s">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7276.590568562585!2d89.287109!3d24.231449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x408e16348bd1d77b!2sChatmohar%20Thana!5e0!3m2!1sen!2sbd!4v1633315022801!5m2!1sen!2sbd" title="contact map" width="100%" height="450" allowFullScreen="" loading="lazy"></iframe>
+                            <div className="col-md-6">
+                                <div className="contact_map mt-4 mt-md-0">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7276.590568562585!2d89.287109!3d24.231449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x408e16348bd1d77b!2sChatmohar%20Thana!5e0!3m2!1sen!2sbd!4v1633315022801!5m2!1sen!2sbd" title="contact map" width="100%" height="450" ></iframe>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </Row>
+                    </Container>
                 </div>
             </div>
     );

@@ -1031,7 +1031,7 @@ button:focus {
 li.grid_item {
   width: 30% !important;
   margin-bottom: 20px;
-  border: 2px solid #3ac55a;
+  border: 1px solid #ccc;
   margin-right: 2%;
 }
 

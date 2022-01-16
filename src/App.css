@@ -311,3 +311,33 @@ ul.footer-follow-us li a svg {
 small {
   color: #fff;
 }
+.box_icon svg,
+.box_icon svg {
+  background-color: #3ac55a;
+  border-radius: 100%;
+  color: #ffffff;
+  display: inline-block;
+  height: 70px !important;
+  line-height: 70px;
+  width: 70px !important;
+  text-align: center;
+  padding: 13px;
+}
+.box_icon:hover svg {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+.my-resume-button {
+  text-align: left !important;
+  display: block !important;
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  width: 207px;
+}
+.my-resume-button:hover {
+  border: 2px solid transparent !important;
+  color: #000 !important;
+  background: #fff;
+}

@@ -36,9 +36,10 @@ const Banner = () => {
                             </h4>
                             <a target="_blank"
                                 href="Resume-of-Md-Mostafizur-Rahman.pdf" rel="noreferrer"
-                                className="btn banner_ripple ripple_white  animation" data-animation="fadeInLeft"
+                                className="my-resume-button btn banner_ripple ripple_white  animation" data-animation="fadeInLeft"
                                 data-animation-delay="0.05s"><span className="ripple"><i className="ti-download"></i></span>My
-                                Resume</a>
+                                Resume
+                            </a>
                         </div>
                     </div>
                 </Row>
