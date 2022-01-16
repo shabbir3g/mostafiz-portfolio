@@ -9,8 +9,8 @@ const Envelope = <FontAwesomeIcon icon={faEnvelope} />;
 
 const Contact = () => {
     return (
-             <div className="contact-page mt-5">
-                <Container> 
+             <div className="contact-page my-5 pb-5">
+              {/*   <Container> 
                 <h2 className="text-center my-4 zara-text text-primary">Contact Us</h2>
                 <p className="mb-5 text-center">If you want to contact with me that message me here</p>
                     <Row> 
@@ -66,7 +66,85 @@ const Contact = () => {
                 </Container>
                   <div className="mt-5"> 
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7276.590568562585!2d89.287109!3d24.231449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x408e16348bd1d77b!2sChatmohar%20Thana!5e0!3m2!1sen!2sbd!4v1633315022801!5m2!1sen!2sbd" title="contact map" width="100%" height="450" allowFullScreen="" loading="lazy"></iframe>
-                  </div>
+                  </div> */}
+
+            <div id="contact" class="">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-6 col-lg-7 col-md-9 text-center">
+                                <div class="heading_s1 animation" data-animation="fadeInUp"
+                                    data-animation-delay="0.02s">
+                                    <h2>Contact Me</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center animation" data-animation="fadeInUp" data-animation-delay="0.04s">
+                            <div class="col-md-4 text-center">
+                                <div class="icon_box icon_box_style_2 box_dark radius_box_10">
+                                    <div class="box_icon mb-3">
+                                        <i class="ti-location-pin"></i>
+                                    </div>
+                                    <div class="icon_box_content">
+                                        <h5 class="text-uppercase py-md-2">Address</h5>
+                                        <p>
+                            Chatmohar, Pabna, Bangladesh</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="icon_box icon_box_style_2 box_dark radius_box_10">
+                                    <div class="box_icon mb-3">
+                                        <i class="ti-mobile"></i>
+                                    </div>
+                                    <div class="icon_box_content">
+                                        <h5 class="text-uppercase py-md-2">Phone</h5>
+                                        <p>+8801728536054</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="icon_box icon_box_style_2 box_dark radius_box_10">
+                                    <div class="box_icon mb-3">
+                                        <i class="ti-email"></i>
+                                    </div>
+                                    <div class="icon_box_content">
+                                        <h5 class="text-uppercase py-md-2">Email</h5>
+                                        <p>mostafizshabbir@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="medium_divider clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                   <div id="contact-form">
+                                        <div className="row contact-row">
+                                        <div className="col-md-6 contact-name">
+                                            <input name="name" id="name" type="text" placeholder="Name*" />
+                                        </div>
+                                        <div className="col-md-6 contact-email">
+                                            <input name="mail" id="mail" type="email" placeholder="E-mail*" />
+                                        </div>
+                                        </div>
+                                        <input name="subject" id="subject" type="text" placeholder="Subject" /> 
+                                        <textarea name="comment" id="comment" placeholder="Message"></textarea>
+                                        <Button size="md" className="zara-btn" variant="primary" >Send Message</Button>
+                                        <div id="msg" className="message"></div>
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact_map mt-4 mt-md-0 animation" data-animation="fadeInUp"
+                                    data-animation-delay="0.02s">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7276.590568562585!2d89.287109!3d24.231449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x408e16348bd1d77b!2sChatmohar%20Thana!5e0!3m2!1sen!2sbd!4v1633315022801!5m2!1sen!2sbd" title="contact map" width="100%" height="450" allowFullScreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
     );
 };

@@ -3,7 +3,7 @@ import {Row, Container } from 'react-bootstrap';
 import heroImg from '../../../images/hero-img.png';
 const Banner = () => {
     return (
-        <div id="home_section" className="banner_section full_screen parallax_bg overlay_bg_blue_90"
+        <div id="home" className="banner_section full_screen parallax_bg overlay_bg_blue_90"
         data-parallax-bg-image="assets/images/bg2.jpg">
         <div className="banner_slide_content">
             <Container className="container">
