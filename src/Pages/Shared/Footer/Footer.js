@@ -30,10 +30,10 @@ const Footer = () => {
                         <Card.Body className="text-light">
                         <Card.Title className="text-uppercase  mb-4">Projects</Card.Title>
                             <ul className='footer-services'>
-                                <li><a href="https://bd-travel-agency-914b3.web.app/" target="_blank" rel="noreferrer">DB Travel Agency</a></li>
-                                <li><a href="https://zara-drone.web.app/" target="_blank" rel="noreferrer">Zara Drone</a></li>
-                                <li><a href="https://zara-resort.web.app/" target="_blank" rel="noreferrer">Zara Resort</a></li>
-                                <li><a href="https://zara-clinic.web.app/" target="_blank" rel="noreferrer">Zara Clinic</a></li>
+                                <li><a href="https://zara-travel-agency.web.app/" target="_blank" rel="noreferrer">Travel Agency</a></li>
+                                <li><a href="https://zara-drone.web.app/" target="_blank" rel="noreferrer">Drone eCommerce</a></li>
+                                <li><a href="https://zara-resort.web.app/" target="_blank" rel="noreferrer">Hotel & Resort</a></li>
+                                <li><a href="https://zara-clinic.web.app/" target="_blank" rel="noreferrer">Clinic Website</a></li>
                             </ul>
                         </Card.Body>
                     </Card>
@@ -41,7 +41,7 @@ const Footer = () => {
                     <div className="col-md-3 col-lg-3">
                     <Card className="border-0">
                         <Card.Body className="text-light">
-                        <Card.Title className="text-uppercase  mb-4">Gen In Touch</Card.Title>
+                        <Card.Title className="text-uppercase  mb-4">Contact Us</Card.Title>
                         <Card.Text style={{color: '#fff'}}>
                         Bangladesh, Chatmohor, Pabna, PO Office 6630 <br />
                         Phone: +88 01728 536054 <br />

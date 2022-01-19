@@ -29,8 +29,7 @@ const Banner = () => {
                             <h1 className="animation text-left" data-animation="fadeInUp" data-animation-delay="0.02s">Hello, I'm
                                 Md. Mostafizur Rahman</h1>
                             <div id="typed-strings" className="d-none">
-                                <b>Frontend Developer</b> <b>Web Developer</b> <b>WordPress Web Designer</b> <b>
-                                    junior MERN Stack Developer</b>
+                                <b>Frontend Developer</b> <b>Web Developer</b> <b>WordPress Web Designer</b> <b> MERN Stack Developer</b>
                             </div>
                             <h4 className="animation text-left" data-animation="fadeInUp" data-animation-delay="0.03s">I'm a <span id="typed-text" className="text_default"></span>
                             </h4>

@@ -57,88 +57,48 @@ const Projects = () => {
                 <div className="col-md-12">
                     <ul className="grid_container gutter_medium work_col3 portfolio_gallery portfolio_style1 animation masonry"
                         data-animation="fadeInUp" data-animation-delay="0.04s">
-                      <li className="grid-sizer">
+                        <li className="grid-sizer">
                         <li className="grid_item react mern">
                             <div className="portfolio_item" >
-                                <a href="/" className="image_link">
+                                <a rel='noreferrer' target="_blank" href="https://zara-travel-agency.web.app/" className="image_link">
                                     <img src="assets/images/project-01.png" alt="images" />
                                 </a>
-                                <div className="portfolio_content">
-                                    <h5><a href="project1.html">Super Bicycles</a>
-                                    </h5>
-                                    <a className="portfolio_btn" href="project1.html">Details</a>
-                                </div>
+                            </div>
+                        </li>
+                        <li className="grid_item wordpress">
+                            <div className="portfolio_item">
+                                <a rel='noreferrer' target="_blank" href="http://student-ly.com/" className="image_link">
+                                    <img src="assets/images/project-06.png" alt="imageh" />
+                                </a>
                             </div>
                         </li>
                         <li className="grid_item react">
                             <div className="portfolio_item">
-                                <a href="/" className="image_link">
-                                    <img src="assets/images/project-02.png" alt="images" />
+                                <a rel='noreferrer' target="_blank" href="https://zara-clinic.web.app/" className="image_link">
+                                    <img src="assets/images/project-04.png" alt="imaged" />
                                 </a>
-                                <div className="portfolio_content">
-                                    <div className="link_container">
-                                    </div>
-                                    <h5><a href="project2.html">Skill Develop</a></h5>
-                                    <a className="portfolio_btn" href="project2.html">Details</a>
-                                </div>
+                            </div>
+                        </li>
+                        <li className="grid_item wordpress">
+                            <div className="portfolio_item">
+                                <a rel='noreferrer' target="_blank" href="https://yanabea-app.com/" className="image_link">
+                                    <img src="assets/images/project-05.png" alt="imageh" />
+                                </a>
                             </div>
                         </li>
                         <li className="grid_item react mern">
                             <div className="portfolio_item">
-                                <a href="/" className="image_link">
+                                <a rel='noreferrer' target="_blank" href="https://zara-resort.web.app/" className="image_link">
                                     <img src="assets/images/project-03.png" alt="images" />
                                 </a>
-                                <div className="portfolio_content">
-                                    <div className="link_container">
-
-                                    </div>
-                                    <h5><a href="project3.html">Tour X</a></h5>
-                                    <a className="portfolio_btn" href="project3.html">Details</a>
-                                </div>
                             </div>
                         </li>
-                        <li className="grid_item wordpress">
+                       
+                        <li className="grid_item react mern">
                             <div className="portfolio_item">
-                                <a href="/" className="image_link">
-                                    <img src="assets/images/project-04.png" alt="imageh" />
+                                <a rel='noreferrer' target="_blank" href="https://zara-drone.web.app/" className="image_link">
+                                    <img src="assets/images/project-02.png" alt="images" />
                                 </a>
-                                <div className="portfolio_content">
-                                    <div className="link_container">
-
-                                    </div>
-                                    <h5><a href="project4.html">InterWorkout Gym</a>
-                                    </h5>
-                                    <a className="portfolio_btn" href="project4.html">Details</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="grid_item wordpress">
-                            <div className="portfolio_item">
-                                <a href="/" className="image_link">
-                                    <img src="assets/images/project5.png" alt="imageh" />
-                                </a>
-                                <div className="portfolio_content">
-                                    <div className="link_container">
-
-                                    </div>
-                                    <h5><a href="project4.html">InterWorkout Gym</a>
-                                    </h5>
-                                    <a className="portfolio_btn" href="project4.html">Details</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="grid_item react">
-                            <div className="portfolio_item">
-                                <a rel="noreferrer"  href="/" className="image_link">
-                                    <img src="assets/images/project4.png" alt="imaged" />
-                                </a>
-                                <div className="portfolio_content">
-                                    <div className="link_container">
-
-                                    </div>
-                                    <h5><a href="project5.html">Health Care</a></h5>
-                                    <a className="portfolio_btn" href="project5.html">Details</a>
-                                </div>
                             </div>
                         </li>
                         </li>
