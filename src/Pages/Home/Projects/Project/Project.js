@@ -1,29 +1,15 @@
 import React from 'react';
-import { Card, Col, Button } from 'react-bootstrap';
 
 const Project = (props) => {
-    const {url, title, desc, thumbnail} = props.service;
-   
+    const {url, title, thumbnail, tag} = props.service;
     return (
-        <>
-            <Col>
-                <a href={url} target="_blank" rel="noreferrer">
-                <Card>
-                    <div className="thumbnail project-details"> 
-                            <div className="overlay"></div>
-                            <Card.Img variant="top" src={thumbnail} />
-                        </div>
-                        <Card.Body>
-                        <Card.Title>{title}</Card.Title>
-                        <Card.Text>
-                            {desc.substring(0, 40)}
-                        </Card.Text>
-                        <Button className="zara-btn" variant="primary">Read More</Button>
-                        </Card.Body>
-                    </Card>
+        <li className={tag}>
+            <div className="portfolio_item" >
+                <a title={title} rel='noreferrer' target="_blank" href={url} className="image_link">
+                    <img src={thumbnail} alt="images" />
                 </a>
-            </Col>
-        </>
+            </div>
+        </li>
     );
 };
 
