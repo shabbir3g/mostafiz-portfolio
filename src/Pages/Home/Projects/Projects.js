@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Row } from 'react-bootstrap';
-import Project from './Project/Project';
+import React from 'react';
+
 
 const Projects = () => {
-    const [services, setServices] = useState([]);
+   /*  const [services, setServices] = useState([]);
     useEffect(() =>{
         fetch('/projects.json')
         .then(res => res.json())
         .then(data => setServices(data))
-    }, []);
+    }, []); */
     return (
         <div className="my-5"> 
             {/* <Container>
