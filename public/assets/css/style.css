@@ -25,6 +25,13 @@
   01. GENERAL STYLE
 *===================================*/
 
+
+:root {
+  --body-font-family: Arial, sans-serif;
+  --primary-color: #3ac55a;
+
+}
+
 body {
   background: #ffffff none repeat scroll 0 0;
   color: #888888;
@@ -54,7 +61,7 @@ a {
   transition: all 0.5s ease;
 }
 a:hover {
-  color: #3ac55a;
+  color: var(--primary-color);
   text-decoration: none;
   transition: all 0.5s ease;
 }
@@ -110,8 +117,8 @@ button:focus {
   box-shadow: none !important;
 }
 .btn-default {
-  background-color: #3ac55a;
-  border: 2px solid #3ac55a;
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
   color: #ffffff !important;
   padding: 10px 30px;
 }
@@ -158,11 +165,11 @@ button:focus {
   z-index: -1;
 }
 .btn-default.btn-aylen:hover {
-  color: #3ac55a !important;
+  color: var(--primary-color) !important;
   z-index: 0;
 }
 .ripple {
-  background-color: #3ac55a;
+  background-color: var(--primary-color);
   border-radius: 100%;
   color: #fff;
   position: relative;
@@ -183,7 +190,7 @@ button:focus {
   -o-animation: ripple 1.8s infinite;
   -ms-transition: ripple 1.8s infinite;
   animation: ripple 1.8s infinite;
-  background-color: #3ac55a;
+  background-color: var(--primary-color);
   border-radius: 100%;
   margin: -20px;
   bottom: 0px;
@@ -278,7 +285,7 @@ button:focus {
   color: #fff;
 }
 .text_default {
-  color: #3ac55a !important;
+  color: var(--primary-color) !important;
 }
 .radius_box_10,
 .radius_box_10:before {
@@ -302,7 +309,7 @@ button:focus {
   z-index: 99;
 }
 .scrollup:hover {
-  background-color: #3ac55a;
+  background-color: var(--primary-color);
   color: #fff;
 }
 .scrollup:focus {
@@ -371,7 +378,7 @@ button:focus {
   animation-delay: -0.2s;
 }
 .ball-scale > div {
-  background-color: #3ac55a;
+  background-color: var(--primary-color);
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -472,7 +479,7 @@ button:focus {
 }
 .hover_menu_style3 .navbar .navbar-nav > li > a.active,
 .hover_menu_style3 .navbar .navbar-nav > li:hover > a {
-  color: #3ac55a;
+  color: var(--primary-color);
 }
 .header_wrap:not([class*="bg_"]):not([class*="bg-"]) {
   background-color: #fff;
@@ -648,7 +655,7 @@ button:focus {
   color: #fff;
 }
 .ripple_white:hover {
-  color: #3ac55a;
+  color: var(--primary-color);
 }
 .image_banner {
   text-align: center;
@@ -862,7 +869,7 @@ button:focus {
   right: -30px;
   top: 30px;
   bottom: -30px;
-  border: 10px solid #3ac55a;
+  border: 10px solid var(--primary-color);
   z-index: -1;
 }
 .border_shape2.shape_white {
@@ -911,7 +918,7 @@ button:focus {
 }
 .icon_box_style_2 i,
 .icon_box_style_3 i {
-  background-color: #3ac55a;
+  background-color: var(--primary-color);
   border-radius: 100%;
   color: #ffffff;
   display: inline-block;
@@ -927,7 +934,7 @@ button:focus {
   top: -5px;
   bottom: -5px;
   right: -5px;
-  background-color: #3ac55a;
+  background-color: var(--primary-color);
   border-radius: 100%;
   z-index: -1;
   opacity: 0.4;
@@ -948,7 +955,7 @@ button:focus {
   margin-top: 30px;
 }
 .icon_box_style_3 i {
-  background-color: #3ac55a;
+  background-color: var(--primary-color);
   border-radius: 100%;
   color: #ffffff;
   display: inline-block;
@@ -998,8 +1005,8 @@ button:focus {
 }
 .grid_filter li a.current,
 .grid_filter li a:hover {
-  border-color: #3ac55a;
-  color: #3ac55a;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
 }
 .filter_tab1 li a {
   border: 1px solid #888888;
@@ -1008,8 +1015,8 @@ button:focus {
 }
 .filter_tab1 li a.current,
 .filter_tab1 li a:hover {
-  background-color: #3ac55a;
-  border-color: #3ac55a;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
   color: #fff;
 }
 .filter_white li a {
@@ -1093,7 +1100,7 @@ li.grid_item {
   z-index: 3;
 }
 .portfolio_style1 .portfolio_item::before {
-  background-color: rgba(39, 226, 120, 0.8);
+  background-color: var(--primary-color);
   content: "";
   position: absolute;
   left: 0;
@@ -1117,7 +1124,7 @@ li.grid_item {
 .link_container a {
   background-color: #fff;
   border: 2px solid #fff;
-  color: #3ac55a;
+  color: var(--primary-color);
   font-size: 22px;
   width: 45px;
   height: 45px;
@@ -1304,7 +1311,7 @@ li.grid_item {
   margin-bottom: 10px;
 }
 .post_category a {
-  color: #3ac55a;
+  color: var(--primary-color);
 }
 .blog_content .blog_title {
   margin-bottom: 15px;
@@ -1407,7 +1414,7 @@ footer .widget_title {
 }
 .widget_links li a:hover,
 .widget_links_style1 li a:hover {
-  color: #3ac55a;
+  color: var(--primary-color);
 }
 .widget_links_style1 li {
   float: left;
@@ -1472,7 +1479,7 @@ footer .widget_title {
   width: 100%;
 }
 .skill_content .progress-bar {
-  background-color: #3ac55a;
+  background-color: var(--primary-color);
   border-radius: 20px;
   width: 0;
   -webkit-transition: all 2s ease-in-out;
@@ -1774,7 +1781,7 @@ iframe {
   font-weight: 500;
 }
 .links a:hover {
-  color: #3ac55a;
+  color: var(--primary-color);
 }
 .p-btn {
   padding: 5px 20px;
@@ -1804,7 +1811,7 @@ iframe {
   border-color: #fff;
 }
 .social_white.social_icons li a:hover {
-  color: #3ac55a;
+  color: var(--primary-color);
 }
 .socail_style1.social_white.social_icons li a {
   background-color: rgba(255, 255, 255, 0.2);
@@ -1813,8 +1820,8 @@ iframe {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .border_social.social_icons li a:hover {
-  background-color: #3ac55a;
-  border-color: #3ac55a;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
   color: #fff;
 }
 .social_white.border_social.social_icons li a:hover {
@@ -1855,8 +1862,12 @@ iframe {
   border-color: #c4302b !important;
 }
 .sc_instagram {
-  background-color: #3f729b !important;
-  border-color: #3f729b !important;
+  background-color: #f77737 !important;
+  border-color: #f77737 !important;
+}
+.sc_pinterest {
+  background-color: #c4302b !important;
+  border-color: #c4302b !important;
 }
 
 /*===================================*
