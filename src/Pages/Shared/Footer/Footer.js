@@ -95,11 +95,18 @@ const Footer = () => {
                   <a
                     href="https://wa.me/+8801728536054
 "
+                    style={{ color: "#fff" }}
                   >
                     +88 01728 536054{" "}
                   </a>
                   <br />
-                  Email: mostafizshabbir@gmail.com <br />
+                  Email:{" "}
+                  <a
+                    href="mailto:mostafizshabbir@gmail.com"
+                    style={{ color: "#fff" }}
+                  >
+                    mostafizshabbir@gmail.com
+                  </a>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -108,16 +115,30 @@ const Footer = () => {
             <Card className="border-0">
               <Card.Body className="text-light">
                 <Card.Title className="text-uppercase mb-4">
-                  Subscribe Now!
+                  Hire Me Now!
                 </Card.Title>
                 <div className="row">
                   <div className="col-md-12">
-                    <input
-                      name="name"
-                      id="name"
-                      type="text"
-                      placeholder="Enter Your Email Address..."
-                    />
+                    <ul className="footer-services">
+                      <li>
+                        <a
+                          href="https://www.upwork.com/freelancers/~0197214aa948589ec9"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Upwork
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.fiverr.com/shabbir3g"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Fiverr
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
                 <ul className="footer-follow-us mt-3">
@@ -125,7 +146,7 @@ const Footer = () => {
                     <a
                       rel="noreferrer"
                       target="_blank"
-                      href="http://facebook.com"
+                      href="https://www.facebook.com/shabbir5g"
                     >
                       {Facebook}
                     </a>
@@ -134,7 +155,7 @@ const Footer = () => {
                     <a
                       rel="noreferrer"
                       target="_blank"
-                      href="http://twitter.com"
+                      href="https://x.com/mostafizshabbir"
                     >
                       {Twitter}
                     </a>
@@ -143,7 +164,7 @@ const Footer = () => {
                     <a
                       rel="noreferrer"
                       target="_blank"
-                      href="https://www.instagram.com"
+                      href="https://www.instagram.com/shabbir3g/"
                     >
                       {Instagram}
                     </a>

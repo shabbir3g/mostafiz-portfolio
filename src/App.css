@@ -341,3 +341,6 @@ small {
   color: #000 !important;
   background: #fff !important;
 }
+.profile_info_style2 a{
+  color: rgb(102, 102, 102);
+}

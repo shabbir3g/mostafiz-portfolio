@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import about from "../../../images/about-us.jpg";
+import aboutimg from "../../../images/about-img.png";
 
 const About = () => {
   return (
@@ -15,51 +16,36 @@ const About = () => {
             <h2>About Me</h2>
           </div>
           <div>
-            Hi, I’m Md. Mostafizur Rahman — a dedicated WordPress and LMS
-            specialist with a passion for building high-converting membership
-            and e-learning platforms that deliver real business results. With
-            over 8 years of experience, I’ve successfully completed 200+ custom
-            WordPress projects for clients in 25+ countries, helping them grow
-            their online presence, sell courses, and streamline user engagement.
+            Hello, <br></br>
+            I’m Md. Mostafizur Rahman, a WordPress & LMS expert with 9+ years of
+            experience building high-converting websites for global clients. I
+            specialize in LMS platforms, membership sites, and custom WordPress
+            solutions that drive course sales, boost engagement, and scale
+            online businesses.<br></br>
+            <br></br>
+            Whether you need a full eLearning website with Tutor LMS or
+            LearnDash, a secure membership site with Paid Memberships Pro, or a
+            Figma to WordPress conversion, I bring both technical expertise and
+            business insight to every project.
             <br></br>
             <br></br>
-            <b>🏆 Credentials & Achievements: </b>
-            <br></br>
-            <ul>
-              <li className="list-group-item">
-                ☛ Level 2 Seller on Fiverr with a 5.0★ rating and 97+ client
-                reviews.
-              </li>
-              <li className="list-group-item">
-                ☛ Top Rated Freelancer on Upwork, with 43 completed projects
-              </li>
-              {/* <li>
-                ☛ Developer of “Login Prime”, a secure login & registration
-                plugin available on WordPress.org
-              </li> */}
-              <li className="list-group-item">
-                ☛ Skilled in Shopify app development using Remix + React
-              </li>
-              <li className="list-group-item">
-                ☛ Contributor to Shopify Checkout UI Extensions{" "}
-              </li>
-            </ul>
-            <div>
-              Whether you’re launching an LMS site, a membership system, or need
-              advanced WordPress development — I bring deep expertise, strong
-              communication, and a results-driven mindset to every project.
-            </div>{" "}
-            <br></br>
-            <div>Let’s build something impactful together.</div>
+            📩 Hire me today — I’d love to help!
           </div>
         </div>
         <div className="col-md-4">
-          <div className="text-md-right">
+          <img
+            className="rounded-circle"
+            src={aboutimg}
+            alt="Mostafiz Shabbir"
+          />
+          <div className="text-md-center mt-3">
             <a
-              href="Resume-of-Md-Mostafizur-Rahman.pdf"
+              href="https://mostafizshabbir.blogspot.com"
               className="zara-btn btn btn-primary btn-radius"
+              target="_blank"
+              rel="noreferrer"
             >
-              My Resume
+              Checkout my blog
             </a>
           </div>
         </div>
@@ -98,7 +84,7 @@ const About = () => {
                   </li>
                   <li>
                     <span className="title">Phone No:</span>
-                    <p>+8801728536054</p>
+                    <a href="https://wa.me/+8801728536054">+8801728536054</a>
                   </li>
                   <li>
                     <span className="title">Email:</span>

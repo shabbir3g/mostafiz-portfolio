@@ -54,7 +54,7 @@ const Banner = () => {
                 </h4>
                 <a
                   target="_blank"
-                  href="Resume-of-Md-Mostafizur-Rahman.pdf"
+                  href="WordPress-Developer-Resume-Md-Mostafizur-Rahman.pdf"
                   rel="noreferrer"
                   className="my-resume-button btn banner_ripple ripple_white  animation"
                   data-animation="fadeInLeft"
