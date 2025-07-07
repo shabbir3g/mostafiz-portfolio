@@ -18,9 +18,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, {
-        publicKey: process.env.PUBLIC_KEY,
-      })
+      .sendForm(
+        process.env.REACT_APP_EMAIL_JS_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
           setShowAlert(true);
@@ -32,6 +37,7 @@ const Contact = () => {
         }
       );
   };
+
   return (
     <div className="contact-page my-5 pb-5">
       <div id="contact">
@@ -79,16 +85,12 @@ const Contact = () => {
           </Row>
           <Row className="row">
             <div className="col-md-6">
-              {showAlert && (
-                <Alert
-                  variant="success"
-                  onClose={() => setShowAlert(false)}
-                  dismissible
-                >
-                  ✅ Your message has been sent successfully!
-                </Alert>
-              )}
-              <form ref={form} onSubmit={sendEmail} id="contact-form">
+              <form
+                className="mb-5"
+                ref={form}
+                onSubmit={sendEmail}
+                id="contact-form"
+              >
                 <div className="row contact-row">
                   <div className="col-md-6 contact-name">
                     <input
@@ -118,6 +120,16 @@ const Contact = () => {
                   id="comment"
                   placeholder="Message"
                 ></textarea>
+
+                {showAlert && (
+                  <Alert
+                    variant="success"
+                    onClose={() => setShowAlert(false)}
+                    dismissible
+                  >
+                    ✅ Your message has been sent successfully!
+                  </Alert>
+                )}
 
                 <Button
                   type="submit"
